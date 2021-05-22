@@ -14,4 +14,48 @@
 }
 .nav__link {
   color: #2f363e;
+  position: relative;
+}
+
+.nav__notification__person {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+}
+.nav__notification__comments {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+}
+.nav__notification__ellipsis {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
 }
